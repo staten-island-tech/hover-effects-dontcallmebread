@@ -1,11 +1,12 @@
 @import"./variable";
 
 body{
-    background-color: rgba(color(primary), 1.0)
+    background-color: rgba(color(primary), 1.0);
 }; 
 
 .holiday-parent{
     display: flex;
+    position: relative;
     flex-direction: column;
     width: 35rem;
     height: auto;
@@ -14,10 +15,12 @@ body{
 .holiday{
     width: 20rem;  
     height: 20rem;
+    text-align: center;
 };
 
 .holiday-child{
     display: flex;
+    position: absolute;
     flex-direction: row;
     margin: 1rem 1rem 0rem 1rem;
 };
@@ -29,13 +32,13 @@ body{
 
 .holiday-child2{
     display: flex;
+    position: absolute;
     flex-direction: column;
     align-items: center;
-    margin-left: 7rem;
 };
 
 .donut{
-    margin: -1rem 0rem 0rem 0rem;
+    margin: 20rem 0rem 0rem 10rem;
 };
 
 
