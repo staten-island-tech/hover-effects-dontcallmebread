@@ -2,25 +2,24 @@ body {
   background-color: #ffe3ed;
 }
 
-.ao {
-  height: 20rem;
-  width: 20rem;
-  margin: 1rem;
+.holiday-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 35rem;
+  height: auto;
 }
 
-.bun {
-  height: 20rem;
+.holiday {
   width: 20rem;
-  margin: 1rem;
+  height: 20rem;
 }
 
-.donut {
-  height: 20rem;
-  width: 20rem;
-  margin: 1rem;
-}
-
-.holiday-gallery {
+.holiday-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,16 +27,28 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  color: white;
-  max-width: 35%;
-  border: pink 0.25rem solid;
+  margin: 1rem 1rem 0rem 1rem;
 }
 
-/* .holiday{
-    position: absolute;
-    outline-offset: 1rem;
-    height: 21rem;
-    transition: all 0.3s;
-};
- */
+.ao {
+  margin: 0rem 1rem 0rem 0rem;
+}
+
+.holiday-child2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 7rem;
+}
+
+.donut {
+  margin: -1rem 0rem 0rem 0rem;
+}
 /*# sourceMappingURL=style.css.map */

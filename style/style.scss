@@ -4,40 +4,39 @@ body{
     background-color: rgba(color(primary), 1.0)
 }; 
 
-.ao{
-    height: 20rem;
-    width: 20rem;
-    margin: 1rem;
+.holiday-parent{
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    height: auto;
 };
 
-.bun{
+.holiday{
+    width: 20rem;  
     height: 20rem;
-    width: 20rem;
-    margin: 1rem;
+};
+
+.holiday-child{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 1rem 0rem 1rem;
+};
+
+.ao{
+    margin: 0rem 1rem 0rem 0rem;
+};
+
+
+.holiday-child2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 7rem;
 };
 
 .donut{
-    height: 20rem;
-    width: 20rem;
-    margin: 1rem;
+    margin: -1rem 0rem 0rem 0rem;
 };
 
-.holiday-gallery{
-    display: flex;
-    flex-direction: row;
-    color: white;
-    max-width: 35%;
-    border: pink 0.25rem solid;
-}
 
-.holiday-parent{
 
-};
-
-/* .holiday{
-    position: absolute;
-    outline-offset: 1rem;
-    height: 21rem;
-    transition: all 0.3s;
-};
- */
