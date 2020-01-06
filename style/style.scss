@@ -1,16 +1,43 @@
-.holiday{
+@import"./variable";
+
+body{
+    background-color: rgba(color(primary), 1.0)
+}; 
+
+.ao{
     height: 20rem;
-    position: absolute;
+    width: 20rem;
+    margin: 1rem;
+};
+
+.bun{
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem;
+};
+
+.donut{
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem;
 };
 
 .holiday-gallery{
-    position: relative;
-    margin: 2rem;
-    height: 10rem;
-    width: auto;
-};
+    display: flex;
+    flex-direction: row;
+    color: white;
+    max-width: 35%;
+    border: pink 0.25rem solid;
+}
 
 .holiday-parent{
-    height: 45rem;
-    width: 65rem;
+
 };
+
+/* .holiday{
+    position: absolute;
+    outline-offset: 1rem;
+    height: 21rem;
+    transition: all 0.3s;
+};
+ */
