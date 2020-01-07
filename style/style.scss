@@ -1,7 +1,7 @@
 @import"./variable";
 
 body{
-    background-color: rgba(color(primary), 1.0)
+    background-color: rgba(color(primary), 1.0);
 }; 
 
 .holiday{
@@ -20,6 +20,7 @@ body{
 .holiday-gallery{
     position: relative;
     display: flex;
+    position: absolute;
     flex-direction: row;
     justify-content: space-evenly;
     max-width: 34rem;
