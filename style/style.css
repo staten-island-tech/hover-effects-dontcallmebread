@@ -1,12 +1,19 @@
 body {
   background-color: #ffe3ed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 7rem 13rem;
 }
 
 .holiday {
-  position: absolute;
+  position: relative;
   height: 10rem;
   width: 10rem;
-  margin: 0.5rem 0rem;
+  margin: 0.5rem 0.5rem;
   outline-offset: 1rem;
   -webkit-transition: -webkit-transform 0.2s;
   transition: -webkit-transform 0.2s;
@@ -20,11 +27,9 @@ body {
 }
 
 .holiday-gallery {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -32,15 +37,12 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  max-width: 34rem;
+  max-width: 45rem;
   height: 11rem;
   border: pink 0.25rem solid;
+  position: absolute;
 }
 
-/* 
-.ao{   
-    margin-right: 50rem;
-} */
 .holiday-parent {
   width: 100rem;
   height: 50rem;

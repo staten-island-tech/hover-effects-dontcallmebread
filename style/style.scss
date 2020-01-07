@@ -2,40 +2,39 @@
 
 body{
     background-color: rgba(color(primary), 1.0);
+    display: flex;
+    justify-content: center;
+    padding: 7rem 13rem;
 }; 
 
 .holiday{
-    position: absolute;
+    position: relative;
     height: 10rem;
     width: 10rem;
-    margin: 0.5rem 0rem;
+    margin: 0.5rem 0.5rem;
     outline-offset: 1rem;
     transition: transform 0.2s; 
 };
 
 .holiday:hover{
     transform: scale(1.5);
-};
+}; 
 
 .holiday-gallery{
-    position: relative;
     display: flex;
-    position: absolute;
     flex-direction: row;
     justify-content: space-evenly;
-    max-width: 34rem;
+    max-width: 45rem;
     height: 11rem;
     border: pink 0.25rem solid;
+    position: absolute;
 };
-/* 
-.ao{   
-    margin-right: 50rem;
-} */
 
 .holiday-parent{
     width: 100rem;
     height: 50rem;
 };
+
 
 
  
