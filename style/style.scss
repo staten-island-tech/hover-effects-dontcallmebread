@@ -4,40 +4,37 @@ body{
     background-color: rgba(color(primary), 1.0)
 }; 
 
-.ao{
-    height: 20rem;
-    width: 20rem;
-    margin: 1rem;
+.holiday{
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    margin: 0.5rem 0rem;
+    outline-offset: 1rem;
+    transition: transform 0.2s; 
 };
 
-.bun{
-    height: 20rem;
-    width: 20rem;
-    margin: 1rem;
-};
-
-.donut{
-    height: 20rem;
-    width: 20rem;
-    margin: 1rem;
+.holiday:hover{
+    transform: scale(1.5);
 };
 
 .holiday-gallery{
+    position: relative;
     display: flex;
     flex-direction: row;
-    color: white;
-    max-width: 35%;
+    justify-content: space-evenly;
+    max-width: 34rem;
+    height: 11rem;
     border: pink 0.25rem solid;
-}
+};
+/* 
+.ao{   
+    margin-right: 50rem;
+} */
 
 .holiday-parent{
-
+    width: 100rem;
+    height: 50rem;
 };
 
-/* .holiday{
-    position: absolute;
-    outline-offset: 1rem;
-    height: 21rem;
-    transition: all 0.3s;
-};
- */
+
+ 
