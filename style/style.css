@@ -3,10 +3,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 7rem 13rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 7rem 13rem;
 }
 
 .holiday {
@@ -41,6 +44,7 @@ body {
   height: 11rem;
   border: pink 0.25rem solid;
   position: absolute;
+  margin-left: -5rem;
 }
 
 .holiday-parent {
@@ -54,11 +58,16 @@ body {
 }
 
 .flip-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: transparent;
-  width: 40rem;
+  width: 150%;
   height: 35rem;
   border: 0.25rem solid #c6cbef;
   padding: 1rem 0rem;
+  margin-bottom: 12.5rem;
+  margin-left: 5rem;
 }
 
 .flip-card-inner {
