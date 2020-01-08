@@ -10,6 +10,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-family: 'Girassol', cursive;
 }
 
 .holiday {
@@ -62,7 +63,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   background-color: transparent;
-  width: 150%;
+  width: 52%;
   height: 35rem;
   border: 0.25rem solid #c6cbef;
   padding: 1rem 0rem;

@@ -1,7 +1,9 @@
 $colors:(
-    primary: #ffe3ed
+    primary: #ffe3ed,
+    hovercolor: #503bff,
+    hovercolor2: #8293ff
 );
 
 @function color($color-name){
     @return map-get($colors, $color-name)
-}
+};
