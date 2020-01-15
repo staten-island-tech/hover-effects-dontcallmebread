@@ -259,3 +259,9 @@ span:hover{
     overflow: hidden;
     animation: noise-anim-2 15s infinite linear alternate-reverse;
   }
+
+  .all{
+    display: flex;
+    background-color: black;
+    margin: 0 40%;
+  }
